@@ -1,0 +1,113 @@
+/* Navbar */
+.navbar {
+    background-color: #007bff;
+}
+
+.nav-link {
+    color: white !important;
+    margin: 0 10px;
+    padding: 5px 15px;
+}
+
+    .nav-link:hover {
+        background-color: #0056b3;
+        color: white !important;
+    }
+
+/* Buttons */
+.btn {
+    border-radius: 14px; /* Eðilimli köþeler %30 oranýnda azaltýldý */
+    font-size: 16px; /* Buton yazý boyutu */
+    padding: 10px 20px; /* Buton iç boþluk */
+}
+
+.btn-outline-primary {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+    .btn-outline-primary:hover {
+        background-color: #0056b3;
+        color: white;
+        border-color: #0056b3;
+    }
+
+.btn-outline-secondary {
+    background-color: #6c757d;
+    color: white;
+    border-color: #6c757d;
+}
+
+    .btn-outline-secondary:hover {
+        background-color: #565e64;
+        color: white;
+        border-color: #565e64;
+    }
+
+.btn-outline-info {
+    background-color: #17a2b8;
+    color: white;
+    border-color: #17a2b8;
+}
+
+    .btn-outline-info:hover {
+        background-color: #117a8b;
+        color: white;
+        border-color: #117a8b;
+    }
+
+.btn-outline-danger {
+    background-color: #dc3545;
+    color: white;
+    border-color: #dc3545;
+}
+
+    .btn-outline-danger:hover {
+        background-color: #c82333;
+        color: white;
+        border-color: #c82333;
+    }
+
+/* Welcome Page */
+.jumbotron {
+    text-align: center;
+    background-color: #80bdff;
+    border-radius: 20px;
+    padding: 2rem;
+    margin-top: 20px;
+    color: white;
+}
+
+/* Student List */
+.table-custom {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+}
+
+    .table-custom th, .table-custom td {
+        border: 1px solid #dee2e6;
+    }
+
+    .table-custom th {
+        background-color: #007bff;
+        color: white;
+    }
+
+/* Edit Pages */
+.form-horizontal {
+    background-color: #f1f1f1; /* Daha belirgin arka plan rengi */
+    border: 1px solid #dee2e6;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+/* Assign Courses */
+.course-item {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #f8f9fa;
+}
